@@ -1,0 +1,42 @@
+<ion-content class="no-scroll">
+  <!-- <ion-row class="backImage">
+    <img src="assets/images/background.jpg">
+  </ion-row> -->
+  <ion-row padding class="main-content">
+    <ion-row>
+      <form [formGroup]="emailPasswordForm">
+        <ion-row>
+          <ion-input type="text" formControlName="email" placeholder="Email address"></ion-input>
+        </ion-row>
+        <ion-row>
+          <ion-input type="password" formControlName="password" placeholder="Password"></ion-input>
+          <button item-right ion-button clear color="gray" class="forgot-password" (click)="forgotPassword()">Forgot ?</button>
+        </ion-row>
+      </form>
+    </ion-row>
+    <ion-row>
+      <button ion-button class="red-button" block tappable (click)="login()">Login</button>
+      <button ion-button class="red-button signup" (click)="registerModel()">
+        sign up
+      </button>
+    </ion-row>
+    <!-- <ion-row> -->
+    <!-- <p style="font-weight: 500; color:#444">CONTINUE WITH</p>
+      <button *ngIf="facebookLoginEnabled==true" ion-button color="facebook" tappable (click)="loginProvider.facebookLogin()">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </button>
+      <button *ngIf="googleLoginEnabled==true" ion-button color="google" tappable (click)="loginProvider.googleLogin()">
+        <ion-icon name="logo-google"></ion-icon>
+      </button>
+      <button ion-button color="dark" tappable (click)="registerModel()">
+        <ion-icon name="ios-mail-outline"></ion-icon>
+      </button>
+      <button *ngIf="phoneLoginEnabled==true" ion-button color="dark" tappable (click)="loginProvider.phoneLogin()">
+        <ion-icon name="phone-portrait"></ion-icon>
+      </button> -->
+
+    <!-- </ion-row> -->
+  </ion-row>
+
+
+</ion-content>

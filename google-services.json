@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "198467169234",
+    "firebase_url": "https://itf-enterprise-chat-v1.firebaseio.com",
+    "project_id": "itf-enterprise-chat-v1",
+    "storage_bucket": "itf-enterprise-chat-v1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198467169234:android:5510fe010c83755b",
+        "android_client_info": {
+          "package_name": "com.hispire.itfenterprisechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198467169234-5vj73j88b1d1auvbhcfjo7dqnleigf75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoyq97uF4B6-iswfg4CBvgZkyrDCPsxM8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
