@@ -58,7 +58,7 @@
     "firebase": "^5.5.2",
     "ionic-angular": "3.9.2",
     "ionicons": "3.0.0",
-    "moment": "^2.22.1",
+    "moment": "^2.29.4",
     "node-sass": "^4.9.0",
     "promise-polyfill": "^8.1.0",
     "rxjs": "^6.3.3",
